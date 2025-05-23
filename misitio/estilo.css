@@ -1,2 +1,33 @@
 
+/*Estilo del banner (div caja)*/
+.box {
+    max-width: 2000px;
+    height: 100px;
+    background-color: rgb(102, 102, 102);
+    font-family: sans-serif, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://interfaceingame.com/wp-content/uploads/deep-rock-galactic/deep-rock-galactic-banner.jpg);
+    background-size: contain;
+    background-repeat: initial;
+}
+
+/*Estilo del texto en div caja*/
+div.box{
+    color: yellow;
+    font-size: 40px;
+    text-shadow: 3px 3px black;
+}
+
+div.juegodia {
+    display: flex;
+    font-family: sans-serif;
+    background-color: rgb(235, 235, 235);
+    width: 100px;
+    height: 100%;
+    margin: 40px;
+    justify-content: center;
+    align-items: center;
+}
 

@@ -8,7 +8,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(https://interfaceingame.com/wp-content/uploads/deep-rock-galactic/deep-rock-galactic-banner.jpg);
+    background-image: url(https://cdn.comic.studio/banners/24037.4ea92f5f6ad6ddd253864f801f2fce96.png);
     background-size: contain;
     background-repeat: initial;
 }
@@ -19,7 +19,7 @@ body{
 
 /*Estilo del texto en div caja*/
 div.box{
-    color: yellow;
+    color: rgb(255, 0, 0);
     font-size: 40px;
     text-shadow: 3px 3px black;
 }

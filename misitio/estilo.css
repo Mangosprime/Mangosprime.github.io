@@ -20,14 +20,11 @@ div.box{
     text-shadow: 3px 3px black;
 }
 
+/*Estilo del juego del dia*/
 div.juegodia {
     display: flex;
     font-family: sans-serif;
     background-color: rgb(235, 235, 235);
-    width: 100px;
-    height: 100%;
-    margin: 40px;
     justify-content: center;
-    align-items: center;
+    width: 300px;
 }
-

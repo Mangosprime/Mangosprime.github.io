@@ -13,6 +13,10 @@
     background-repeat: initial;
 }
 
+body{
+    background-color: whitesmoke;
+}
+
 /*Estilo del texto en div caja*/
 div.box{
     color: yellow;
@@ -27,10 +31,15 @@ div.juegodia {
     background-color: rgb(235, 235, 235);
     justify-content: center;
     width: 300px;
+    margin: 0px 100px;
 }
 
+/*Estilo de la imagen del dia*/
+div.imagendia {
+    margin: 0px 100px;
+}
 
-/*Esto es de la página del caíste*/
-div.spongebob {
-    
+/*Estilo de las descargas*/
+div.descargas {
+    margin: 30px 100px;
 }

@@ -46,6 +46,10 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+.olist {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 .segundo-titulo {
     display: flex;
     justify-content: center;
@@ -88,9 +92,14 @@ p {
 
 
 .tabladiv {
+    display: flex;
     background-color: white;
     border: solid lightgray 1px;
-    height: 200px;
+    height: 230px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 25px;
 }
 
 table {
@@ -102,4 +111,10 @@ table {
 th, td {
     border: 1px solid black;
     padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.t-tabla {
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;';
 }

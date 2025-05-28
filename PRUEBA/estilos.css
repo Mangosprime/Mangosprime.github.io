@@ -1,7 +1,7 @@
 /*Cambia el color de fondo de la página*/
 body {
     font-family: 'Gill Sans';
-    background-color: lightgrey;
+    background-color: aliceblue;
 }
 
 /*Color de fondo del menú; margen, tamaño y alineación*/
@@ -21,17 +21,20 @@ body {
     padding: 5px;
 }
 
+/*Cambia el color del título, su fuente y el margen*/
 h1 {
-    color: blue;
+    color: darkblue;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin: 15px 10px;
 }
 
+/*Cambia la fuente y margen del párrafo de bienvenida*/
 p {
     margin: 15px 10px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+/*Cambia el color de fondo del div de los contenidos, sus márgenes y borde*/
 .divinicio {
     background-color: white;
     padding: 10px;
@@ -39,3 +42,7 @@ p {
     margin: 0px 10px;
 }
 
+/*Cambia la fuente de los enlaces en los contenidos del divinicio*/
+.divinicio a {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

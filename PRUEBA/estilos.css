@@ -74,7 +74,8 @@ p {
 
 .textoaburridopesado{
     display: flex;
-    background-color: lightgray;
+    background-color: rgb(255, 255, 255);
+    border: solid rgb(196, 196, 196) 1px; 
     height: 80px;
     width: 100%px;
     justify-content: center;

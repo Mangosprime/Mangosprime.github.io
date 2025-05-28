@@ -85,3 +85,21 @@ p {
     font-size: 20px;
     padding: 10px;
 }
+
+
+.tabladiv {
+    background-color: white;
+    border: solid lightgray 1px;
+    height: 200px;
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid black;
+    margin: 20px;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+}

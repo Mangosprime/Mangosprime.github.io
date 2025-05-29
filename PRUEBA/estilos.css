@@ -50,16 +50,20 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+/*Cambia la posición del segundo título*/
 .segundo-titulo {
     display: flex;
     justify-content: center;
     margin: 10px 10px;
 }
 
+/*Cambia el tamaño del título 2*/
 .segundo-titulo h1 {
   font-size: 50px;  
 }
 
+
+/*Estilos de las imágenes en la galería (Posición, tamaño, color de fondo, márgenes...)*/
 .galeria{
     display: flex;
   width: auto;
@@ -116,5 +120,5 @@ th, td {
 
 .t-tabla {
     font-size: 25px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;';
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }

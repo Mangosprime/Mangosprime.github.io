@@ -1,53 +1,16 @@
-/*ARCHIVO DE ESTILOS PARA MISITIO 2.0*/
-
-body {
-    background-color: #000005;
-}
-
-.centrado {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.luna {
-    display: inline-block;
-    position: relative;
-}
-
-.luna img {
-    display: block;
-    width: 100%;
-}
+/*ARCHIVO DE ESTILOS DEL MISITIO 2.0*/
 
 .menu {
     display: flex;
-    justify-content: center;
-    text-align: center;
-    position: absolute;
-    top: 25%;
-    left: 41.5%;
-    color: black;
-    font-size: 50px;
-    background-color: rgba(255, 255, 2555, 0.15);
-    padding: 5px;
-    width: 300px;
-    border-radius: 20px;
-    border: 2px solid black;
+    background-color: ;
 }
 
-.menu ul, a {
-    text-decoration: none;
-    color: black;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    list-style: none;
-    float: left;
+/*Estilo del logo del menú*/
+.menuimage {
+    margin: 0px 30px;
 }
 
-
-.dibujitos-bg {
-    background-color: white;
-    background-image: url(whiteboard.png);
-    background-size: cover;
-    background-repeat: no-repeat;
+.menulinks {
+    padding: 10px;
+    margin: 0px 30px;
 }

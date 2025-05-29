@@ -1,16 +1,56 @@
 /*ARCHIVO DE ESTILOS DEL MISITIO 2.0*/
 
+.ind-body {
+    background-color: #D0E3C4;
+}
+
 .menu {
     display: flex;
-    background-color: beige;
+    background-color: #FFFFFF;
+    border: 2px solid #466060;
+    align-items: center;
+    height: 60px;
+    border-radius: 8px;
+    margin: 20px 30px;
 }
 
 /*Estilo del logo del menú*/
 .menuimage {
-    margin: 0px 30px;
+    margin: 0px 20px;
 }
 
-.menulinks {
+.menulinks a {
     padding: 10px;
-    margin: 0px 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+}
+
+.textoind {
+    margin: 40px 30px;
+    padding: 25px;
+    border-radius: 8px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #FFFFFF;
+    font-size: 20px;
+    border: 2px solid #466060;
+}
+
+.contenedorindice {
+    display: flex;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px;
+    margin: 50px 30px;
+}
+
+.listaul {
+    display: inline-block;
+    background-color: white;
+}
+
+.imagencontenedor {
+    float: right;
+    vertical-align: top;
+    padding: 10px;
 }

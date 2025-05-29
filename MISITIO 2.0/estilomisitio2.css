@@ -2,7 +2,6 @@
 
 body {
     background-color: #000005;
-    background-image: "estrellas.jpg";
 }
 
 .centrado {
@@ -43,4 +42,12 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     list-style: none;
     float: left;
+}
+
+
+.dibujitos-bg {
+    background-color: white;
+    background-image: url(whiteboard.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }

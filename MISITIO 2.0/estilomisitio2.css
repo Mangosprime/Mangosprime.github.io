@@ -63,6 +63,16 @@ body {
     margin: 0px 30px;
 }
 
+
+.parallaxj {
+    background-image: url(jurassicbackground.png);
+    min-height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .centrador {
     display: flex;
     justify-content: center;
@@ -72,12 +82,17 @@ body {
     display: flex;
     flex-direction: column;
     padding: 15px;
-    background-color: white;
+    background-color: #ffffff;
     border: 2px solid #466060;
     border-radius: 8px;
     margin: 20px 30px;
     font-size: 20px;
     width: 60%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.parrafoj {
+    font-size: 25px;
 }
 
 .quees {

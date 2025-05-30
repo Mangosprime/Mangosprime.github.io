@@ -105,3 +105,7 @@ body {
     height: 300px;
     margin: 40px 30px;
 }
+
+.listaj, p{
+    font-size: 30px;
+}

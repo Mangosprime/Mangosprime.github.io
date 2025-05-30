@@ -83,7 +83,7 @@ body {
     flex-direction: column;
     padding: 15px;
     background-color: #ffffff;
-    border: 2px solid #466060;
+    border: 2px solid #000000;
     border-radius: 8px;
     margin: 20px 30px;
     font-size: 20px;
@@ -101,12 +101,37 @@ body {
 }
 
 .contenedorj {
-    height: 300px;
-    margin: 40px 30px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    height: 80%;
+    width: 50%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 2px solid black;
+    border-radius: 8px;
+    margin: 40px 30px;
+    justify-content: center;
+    align-items: center;
 }
 
 .tablaj{
     font-size: 30px;
+    padding: 20px;
 }
 
+.titulotabla {
+    text-align: center;
+}
+
+.tablaj th, td {
+    padding: 20px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+
+.imagenesj {
+    display: inline-block;
+    text-align: center;
+    padding: 20px;
+}

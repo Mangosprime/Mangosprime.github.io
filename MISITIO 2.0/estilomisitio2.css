@@ -99,3 +99,9 @@ body {
     display: flex;
     justify-content: center;
 }
+
+.contenedorj {
+    display: flex;
+    height: 300px;
+    margin: 40px 30px;
+}

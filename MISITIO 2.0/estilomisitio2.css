@@ -1,9 +1,12 @@
 /*ARCHIVO DE ESTILOS DEL MISITIO 2.0*/
 
+/*Color de fondo*/
 body {
     background-color: #C2DBD9;
 }
 
+
+/*Estilo de la barra superior (el menú)*/
 .menu {
     display: flex;
     background-color: #FFFFFF;
@@ -19,6 +22,7 @@ body {
     margin: 0px 20px;
 }
 
+/*Estilo de los links del menú*/
 .menulinks a {
     padding: 10px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -27,6 +31,8 @@ body {
     text-decoration: none;
 }
 
+
+/*Estilo del primer parrafo del índice*/
 .textoind {
     margin: 40px 30px;
     padding: 25px;
@@ -37,6 +43,7 @@ body {
     border: 2px solid #466060;
 }
 
+/*Estilo del contenedor del índice que contiene la lista y la imagen*/
 .contenedorindice {
     display: flex;
     flex-wrap: nowrap;
@@ -47,6 +54,7 @@ body {
     margin: 50px 30px;
 }
 
+/*Estilo de la lista del índice*/
 .listaul {
     display: inline-block;
     width: 40%;
@@ -57,13 +65,15 @@ body {
     font-size: 20px;
 }
 
+
+/*Estilo de la imagen en el contenedor*/
 .imagencontenedor {
     display: inline-block;
     padding: 10px;
     margin: 0px 30px;
 }
 
-
+/*Estilo de la imagen de fondo de la página de jurassic park/world*/
 .parallaxj {
     background-image: url(jurassicbackground.png);
     min-height: 300px;
@@ -73,11 +83,15 @@ body {
     background-size: cover;
 }
 
+
+/*Div usado para centrar sus contenidos*/
 .centrador {
     display: flex;
     justify-content: center;
 }
 
+
+/*Estilo de un contenedor*/
 .contej {
     display: flex;
     flex-direction: column;
@@ -91,15 +105,19 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+
+/*Estilo de los parrafos*/
 .parrafoj {
     font-size: 25px;
 }
 
+/*estilo de los "Que es"*/
 .quees {
     display: flex;
     justify-content: center;
 }
 
+/*Estilo del contenedor de la tabla*/
 .contenedorj {
     background-color: white;
     display: flex;
@@ -114,29 +132,33 @@ body {
     align-items: center;
 }
 
+/*Estilo de la tabla*/
 .tablaj{
     font-size: 30px;
     padding: 20px;
 }
 
+/*estilo del título de la tabla*/
 .titulotabla {
     text-align: center;
 }
 
+
+/*Estilo de las celdas de la tabla*/
 .tablaj th, td {
     padding: 20px;
     border: 1px solid black;
     border-collapse: collapse;
 }
 
-
+/*Estilo de las imagenes*/
 .imagenesj {
     display: inline-block;
     text-align: center;
     padding: 20px;
 }
 
-
+/*Estilo de la imagen de fondo de la página de deep rock galactic*/
 .drgparallax {
     background-image: url(drgbg.png);
     min-height: 300px;

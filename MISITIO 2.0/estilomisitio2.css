@@ -135,3 +135,13 @@ body {
     text-align: center;
     padding: 20px;
 }
+
+
+.drgparallax {
+    background-image: url(drgbg.png);
+    min-height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
